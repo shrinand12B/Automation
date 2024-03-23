@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T09:03:06 IST" name="Suite" finished-at="2024-03-18T09:03:24 IST" duration-ms="17817">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T09:03:06 IST" name="Test" finished-at="2024-03-18T09:03:24 IST" duration-ms="17817">
+      <class name="testcases.RegisterTestcases">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testcases.RegisterTestcases@76b1e9b8]" started-at="2024-03-18T09:03:06 IST" name="launchbrowser" finished-at="2024-03-18T09:03:08 IST" duration-ms="2712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="verifyRegistration()[pri:0, instance:testcases.RegisterTestcases@76b1e9b8]" started-at="2024-03-18T09:03:08 IST" name="verifyRegistration" finished-at="2024-03-18T09:03:20 IST" duration-ms="11925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+      </class> <!-- testcases.RegisterTestcases -->
+      <class name="testcases.LoginTestcase">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testcases.LoginTestcase@54422e18]" started-at="2024-03-18T09:03:20 IST" name="launchbrowser" finished-at="2024-03-18T09:03:22 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="verifyLogin()[pri:0, instance:testcases.LoginTestcase@54422e18]" started-at="2024-03-18T09:03:22 IST" name="verifyLogin" finished-at="2024-03-18T09:03:24 IST" duration-ms="1786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- testcases.LoginTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
